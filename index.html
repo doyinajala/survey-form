@@ -1,0 +1,71 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="style.css">
+    <title>My First Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title" align="center">Survey-Form</h1>
+    <p id="description" class="aboutme"> Tell me about yourself</p>
+    <div align="center">
+    <form id="survey-form">
+      <div>
+      <label id="name-label">Name:</label>
+      <input id="name" required type="text" placeholder="Full name"/>
+      </div>
+      <br>
+      <div>
+        <label id="email-label">Email:</label>
+      <input id="email" required type="email" placeholder="Email:"/>
+      </div>
+      <br>
+      <div>
+        <Label id="number-label">Age:</label>
+        <input id="number" type="number" min="1" max="100" required placeholder="Age"/>
+      </div>
+      <br>
+      <div>
+        <Label id="dropdown-label">style</label>
+        <select id="dropdown">
+          <option>Laid back</option>
+          <option>Bougie</option>
+          <option>Traditional</option>
+        </select>
+          </div>
+        <br>
+        <div id= "checkbox section">
+          <label id="Passport">Passport</label>
+        </div>
+        <br>
+        <div>
+          <lab>Canadian</lab ><input type="checkbox" name="resource" value="1"/>
+          <label>British</label><input type="checkbox" name="resource" value="2"/>
+          <label>American</label><input type="checkbox" name="resource" value="3"/>
+        </div>
+      <br>
+      <div>
+        <label>Status</label>
+      </div>
+      <div>
+        <label>Married</label><input name="resource" type="radio" value="1"/>
+        <label>Divorced</label><input name="resource" type="radio" value="2"/>
+        <label>Dating</label><input name="resource" type="radio" value="3"/>
+        <label>Single</label><input name="resource" type="radio" value="4"/>
+      </div>
+        <br>
+      <div>
+        <label>Talk to me and dont be shy:</label>
+      </div> 
+      <div>
+      <textarea></textarea>
+        </div>
+      <div>
+        <button id="submit">Submit</button>
+      </div>
+      </form>
+  </body>
+</html>
+
+
